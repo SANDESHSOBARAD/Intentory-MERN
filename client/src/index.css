@@ -1,0 +1,126 @@
+body,html {
+  margin: 0;
+  padding:0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: rgb(10, 25, 41);
+  background-color: rgb(1, 15, 30);
+}
+.root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100%;
+  max-width: 100%;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container-main{
+ 
+ display: flex;
+ flex-direction: column;
+  padding-top:30px;
+  width:100%;
+  align-items: center;
+  justify-content: center ;
+  margin:0 20% 20% 0;
+  
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color:rgb(4, 123, 139);
+}
+.header p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.btn{
+  background-color: #044b04; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin:5px;
+}
+.link{
+  
+  color:rgb(149, 145, 145);
+  font-size: 12px;
+  margin-top:15px;
+}
+.navbar{
+  width: 100%;
+}
+.me-auto.navbar-nav{
+  align-items: center;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.data-table{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+
+.delete-btn:hover FaTrashAlt{
+  color:rgb(238, 108, 108)
+
+}
+.sc-gswNZR.hNyBcX.rdt_TableHead{
+  color:deepskyblue;
+  font-weight: bold;
+}
+#img-upload{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.about-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  width:30%;
+  border:1px solid white;
+  height:350px;
+}
+.about-box-desc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:5px;
+}
